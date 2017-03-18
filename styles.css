@@ -57,3 +57,34 @@ div {
 .nav li:last-child{
   border-right: none;
 }
+
+.about {
+  color: white;
+  font-size: 3rem;
+  float: left;
+  font-weight: bold;
+  width: 139px;
+  background-color: #87a984;
+  padding-right: 546px;
+  padding-left: 235px;
+
+}
+
+.aboutcontainer {
+  width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7px;
+}
+
+.moreabout {
+  background-color: #87a984;
+  float: left;
+  font-size: 1rem;
+  font-family: sans-serif;
+  width: 450px;
+  padding-left: 235px;
+  padding-right: 233px;
+  font-weight: lighter;
+
+}
