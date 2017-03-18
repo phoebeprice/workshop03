@@ -17,6 +17,13 @@ div {
   float: left;
 }
 
+.logoContainer {
+  width: 920px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .slogan {
   max-width: 380px;
   float: left;
@@ -24,13 +31,6 @@ div {
   font-family: sans-serif;
   font-size: 0.9rem;
   margin-top: 18px;
-}
-
-.logoContainer {
-  width: 920px;
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .nav {
@@ -67,6 +67,7 @@ div {
   background-color: #87a984;
   padding-right: 546px;
   padding-left: 235px;
+  padding-top: 46px;
 
 }
 
@@ -84,7 +85,34 @@ div {
   font-family: sans-serif;
   width: 450px;
   padding-left: 235px;
-  padding-right: 233px;
+  padding-right: 235px;
+  padding-bottom: 45px;
   font-weight: lighter;
 
+}
+
+.moreaboutcontainer {
+  width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sidebar {
+  background-color: #96afac;
+  float: left;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+  font-size: 0.8rem;
+  width: 145px;
+  max-width: 920;
+}
+
+.sidebarcontainer {
+  width: 196px;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+
+}
 }
