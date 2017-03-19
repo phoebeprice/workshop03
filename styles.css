@@ -105,14 +105,36 @@ div {
   color: white;
   font-size: 0.8rem;
   width: 145px;
-  max-width: 920;
+  padding-top: 32px;
+  padding-bottom: 433px;
+  padding-left: 25px;
+  padding-right: 30px;
+  margin-top: 7px;
+}
+
+.sidebar li{
+  border-bottom: 1px solid white;
+  display: block;
+  float: left;
+  padding: 15px 30px;
+  font-family: sans-serif;
 }
 
 .sidebarcontainer {
-  width: 196px;
+  width: 920px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.mainbody {
+  background-color: #dbd8c5;
   float: left;
+}
+
+.mainbodycontainer {
 
 }
+
+.mainbodytitle {
+  
 }
