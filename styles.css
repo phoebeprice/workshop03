@@ -17,13 +17,6 @@ div {
   float: left;
 }
 
-.logoContainer {
-  width: 920px;
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .slogan {
   max-width: 380px;
   float: left;
@@ -31,6 +24,13 @@ div {
   font-family: sans-serif;
   font-size: 0.9rem;
   margin-top: 18px;
+}
+
+.logoContainer {
+  width: 920px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav {
@@ -61,80 +61,113 @@ div {
 .about {
   color: white;
   font-size: 3rem;
-  float: left;
   font-weight: bold;
+  float: left;
   width: 139px;
-  background-color: #87a984;
-  padding-right: 546px;
+  background-color: #87A984;
   padding-left: 235px;
-  padding-top: 46px;
+  padding-right: 546px;
+  padding-top: 45px;
 
 }
 
-.aboutcontainer {
+.aboutContainer {
   width: 920px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 7px;
+
 }
 
 .moreabout {
-  background-color: #87a984;
+  background-color: #87A984;
   float: left;
+  width: 450px;
   font-size: 1rem;
   font-family: sans-serif;
-  width: 450px;
   padding-left: 235px;
   padding-right: 235px;
-  padding-bottom: 45px;
   font-weight: lighter;
-
+  padding-bottom: 45px;
 }
 
-.moreaboutcontainer {
+.moreaboutContainer {
   width: 920px;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .sidebar {
-  background-color: #96afac;
+  background-color: #96AFAC;
   float: left;
-  font-weight: bold;
-  font-family: sans-serif;
   color: white;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   width: 145px;
+  font-family: sans-serif;
+  font-weight: bold;
   padding-top: 32px;
-  padding-bottom: 433px;
+  padding-bottom: 430px;
   padding-left: 25px;
   padding-right: 30px;
   margin-top: 7px;
+  line-height: 1.7;
 }
 
-.sidebar li{
-  border-bottom: 1px solid white;
-  display: block;
-  float: left;
-  padding: 15px 30px;
-  font-family: sans-serif;
-}
-
-.sidebarcontainer {
+.sidebarContainer {
   width: 920px;
   margin-left: auto;
   margin-right: auto;
-}
 
-.mainbody {
-  background-color: #dbd8c5;
+  }
+
+.sidebar li {
+  border-bottom: 1px solid white;
+  display: block;
   float: left;
-}
-
-.mainbodycontainer {
+  padding: 6px 1px;
+  font-family: sans-serif;
 
 }
 
 .mainbodytitle {
-  
+  color: #566C77;
+  font-weight: bold;
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  float: left;
+  width: 193px;
+  background-color: #DBD8C5;
+  padding-left: 45px;
+  padding-right: 482px;
+  padding-top: 40px;
+  margin-top: 7px;
+
+}
+
+.mainbodytitleContainer {
+  width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 7px;
+}
+
+.mainbody {
+  background-color: #DBD8C5;
+  float: left;
+  color: black;
+  font-size: 0.8rem;
+  font-family: sans-serif;
+  width: 620px;
+  padding-left: 45px;
+  padding-right: 55px;
+  padding-bottom: 269px;
+  padding-top: 33px;
+  line-height: 1.7;
+}
+
+.mainbodyContainer {
+  width: 920px;
+  margin-left: auto;
+  margin-right: auto;
 }
